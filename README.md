@@ -2,5 +2,3 @@
 
 The increasing adoption of AI agents has introduced new security challenges, particularly when multimodal Large Language Models interact autonomously with web content. This work investigates the feasibility of Visual Prompt Injection attacks delivered through online advertising banners. A series of experiments conducted using Browser Use with both open-source and commercial LLMs demonstrates that simple text-based visual injections are generally ineffective against modern multimodal models. However, more sophisticated attacks that combine semantic consistency, persuasive visual design, and interface mimicry can successfully manipulate an agent's perception of a webpage and, in some cases, influence its behavior. The results also show that attack effectiveness strongly depends on the underlying LLM architecture and the user's prompt, highlighting the need for security mechanisms that address both multimodal reasoning and contextual decision-making in AI agents.
 
-1. site Mock: 
-2. python scripts: 
