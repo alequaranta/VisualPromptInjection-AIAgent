@@ -1,0 +1,20 @@
+
+MAC SILICON M5
+
+Creare l'ambiente virtuale dentro una cartella dedicata:
+
+1. python3 -m venv .venv
+2 attivarlo. source .venv/bin/activate
+3 disattivarlo. deactivate
+
+
+Installare BrowserUse:
+
+0. python -m pip install --upgrade pip
+1. pip install browser-use
+2. python -m playwright install
+
+
+Configurare le chiavi API:
+
+1. export GEMINI_API_KEY=“YOUR KEY”
